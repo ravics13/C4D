@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" > 
+
+              <ImageButton
+                  android:id="@+id/tile1"
+                  android:layout_width="85dp"
+                  android:layout_height="85dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="14dp"
+                  android:layout_marginTop="25dp"
+                  android:src="@drawable/cashsi" />
+                
+            <ImageButton
+                android:id="@+id/tile2"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/homesi" />
+
+            <ImageButton
+                android:id="@+id/tile3"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/irrigationsi" />
+
+            <ImageButton
+                android:id="@+id/tile4"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/policesi" />
+
+            <ImageButton
+                android:id="@+id/tile5"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/schoolsi" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Cash"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:text="Home"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Irrigation"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Police"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+             
+              <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="School"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/tile6"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logossi" />
+
+            <ImageButton
+                android:id="@+id/tile7"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/roadsi" />
+
+            <ImageButton
+                android:id="@+id/tile8"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/toiletsi" />
+
+            <ImageButton
+                android:id="@+id/tile9"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/electricitysi" />
+
+            <ImageButton
+                android:id="@+id/tile10"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/factorysi" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Forrest"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:text="Road"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="Toilet"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Electricity"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+             
+              <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Factory"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/tile11"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/handisi" />
+
+            <ImageButton
+                android:id="@+id/tile12"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/healthsi" />
+
+            <ImageButton
+                android:id="@+id/tile13"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/unemploysi" />
+
+            <ImageButton
+                android:id="@+id/tile14"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/fishsi" />
+
+            <ImageButton
+                android:id="@+id/tile15"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/stampsi" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Handicraft"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Hospital"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Unemployment"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+             <TextView
+                 android:id="@+id/text14"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="25dp"
+                 android:text="Fish"
+                 android:textColor="#00ffce"
+                 android:textSize="20dp" />
+             
+              <TextView
+                android:id="@+id/text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:text="Stamp"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/tile16"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/water_tapsi" />
+
+            <ImageButton
+                android:id="@+id/tile17"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/elephentsi" />
+
+            <ImageButton
+                android:id="@+id/tile18"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cowsi" />
+
+            <ImageButton
+                android:id="@+id/tile19"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/drylandsi" />
+            
+            <ImageButton
+                android:id="@+id/tile20"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/agriculturesi" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Water"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Elephant"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Cow"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+             <TextView
+                android:id="@+id/text19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="Dry Land"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+             
+              <TextView
+                android:id="@+id/text20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Agriculture"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/tile21"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/foodsi" />
+
+            <ImageButton
+                android:id="@+id/tile22"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pollutionsi" />
+
+            <ImageButton
+                android:id="@+id/tile23"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/childhungersi" />
+
+            <ImageButton
+                android:id="@+id/tile24"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cigarsi" />
+
+            <ImageButton
+                android:id="@+id/tile25"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lakesi" />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Food"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Pollution"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Child Hunger"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+            
+             <TextView
+                 android:id="@+id/text24"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:text="Addiction"
+                 android:textColor="#00ffce"
+                 android:textSize="20dp" />
+             
+              <TextView
+                  android:id="@+id/text25"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="50dp"
+                  android:text="Lake"
+                  android:textColor="#00ffce"
+                  android:textSize="20dp" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/tile26"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/corruptionsi" />
+
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Corruption"
+                android:textColor="#00ffce"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        	        
+        
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/takeinterviewbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+
+        android:textSize="50px"
+        android:text="Take Ranking" />
+   
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="Move Up"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="Move Down"
+        android:textSize="40dp" />
+</LinearLayout><!-- From: file:/C:/Users/RAVI/AndroidstudioProjects/Unnayan(C4D)V-1/app/src/main/res/layout/option.xml -->

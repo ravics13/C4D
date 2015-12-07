@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\RAVI\AndroidstudioProjects\Unnayan(C4D)V-1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\RAVI\AndroidstudioProjects\Unnayan(C4D)V-1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-b7753cf98fa8ff52707a9eb4d83cca868cc2d968.jar" />
+    </item>
+    <item
+        jar="C:\Users\RAVI\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\RAVI\AndroidstudioProjects\Unnayan(C4D)V-1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-678f226c3b3802fd9ec15bf3a8aedafaedb3bd2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\RAVI\AndroidstudioProjects\Unnayan(C4D)V-1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\RAVI\AndroidstudioProjects\Unnayan(C4D)V-1\app\build\intermediates\pre-dexed\debug\classes-b019f5fafe17128f3b82121d2b9c23b7b25c6153.jar" />
+    </item>
+
+</items>
